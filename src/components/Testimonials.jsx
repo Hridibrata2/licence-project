@@ -14,11 +14,23 @@ const testimonials = [
     company: "StartSoft",
     text: "I got paid faster than I expected. Highly recommend!",
   },
+  {
+  name: "Michael Johnson",
+  role: "Finance Director",
+  company: "Innovate Solutions",
+  text: "A seamless process from start to finish. We turned our excess licenses into revenue effortlessly!"
+},
+{
+  name: "Emily Davis",
+  role: "Operations Lead",
+  company: "NextGen Systems",
+  text: "Efficient and hassle-free! The team provided excellent support throughout the transaction."
+}
 ];
 
 const Testimonials = () => {
   return (
-    <section className="py-16 bg-gradient-to-br from-white via-gray-50 to-gray-100 dark:from-gray-800 dark:via-gray-700 dark:to-gray-800 text-center">
+    <section className="py-16 bg-gradient-to-br from-gray-100 via-white to-blue-100 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 text-center">
       <h2 className="text-3xl font-medium text-gray-800 dark:text-white mb-10">
         What Our Customers Say
       </h2>
@@ -42,7 +54,7 @@ const Testimonials = () => {
             }}
             className="p-6 bg-white dark:bg-gray-700 rounded-lg shadow text-left transition-all"
           >
-            <p className="mb-4 italic text-gray-700 dark:text-gray-200">
+            <p className="mb-4 italic text-gray-700 dark:text-gray-100">
               “{review.text}”
             </p>
             <p className="font-semibold text-gray-800 dark:text-white">

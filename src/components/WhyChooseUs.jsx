@@ -11,7 +11,7 @@ const WhyChooseUs = () => {
         { icon: "💼", title: "Business-Friendly", desc: "We support individual and enterprise license sellers." },
         { icon: "📞", title: "Dedicated Support", desc: "Talk to real humans when you need help." },
       ].map((item, index) => (
-        <div key={index} className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow">
+        <div key={index} className="bg-gray-100 dark:bg-gray-700 p-6 rounded-lg shadow">
           <div className="text-4xl mb-3">{item.icon}</div>
           <h3 className="text-lg font-semibold text-gray-800 dark:text-white mb-2">{item.title}</h3>
           <p className="text-sm text-gray-600 dark:text-gray-300">{item.desc}</p>
