@@ -14,7 +14,7 @@ const AIHelp = () => {
     },
     {
       question: "What types of licenses can I sell?",
-      answer: "You can sell licenses for Microsoft Office, Adobe Suite, Antivirus software, and more.",
+      answer: "You can sell licenses for Netflix, Microsoft Office, Adobe Suite, Antivirus software, and more.",
     },
   ];
 
