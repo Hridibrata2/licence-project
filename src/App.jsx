@@ -8,6 +8,7 @@ import Testimonials from "./components/Testimonials";
 import StatsSection from "./components/StatsSection";
 import SocialIcons from "./components/SocialIcons";
 import LogoMarquee from "./components/LogoMarquee";
+import AIHelp from "./components/AiHelp";
 
 export default function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -30,6 +31,7 @@ export default function App() {
       <WhyChooseUs />
       <Testimonials />
       <ContactForm />
+      <AIHelp />
       <SocialIcons />
 
     </div>

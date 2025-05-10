@@ -1,12 +1,16 @@
 import React from 'react';
-import logo from "../assets/softsell.png";
+
+const symbols = [
+  "/logos/sahibinden.png"
+]
 
 const HeroSection = () => {
     return (
         <div className="py-16 bg-gradient-to-br from-blue-100 via-white to-blue-100 dark:from-gray-800 dark:via-gray-900 dark:to-gray-800">
-            {/* Top row: logo on left, toggle on right (only on md and above) */}
+            
             <div className="flex flex-col md:flex-row justify-between items-center max-w-6xl mx-auto px-4 mb-9">
-                <img src={logo} alt="Softsell Logo" className="w-28 h-28 -mt-12 mb-4 md:mb-0 md:mr-6" />
+                <img src={symbols} alt="Softsell Logo"
+  className="w-15 h-15 -mt-10 mb-4 md:mb-0 md:mr-6 dark:invert" />
                 <div className="md:ml-auto">
                 </div>
             </div>
